@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Test 
+        run: npm test
+
       # Check that the app compiles
       - name: Build
         run: npm run build
