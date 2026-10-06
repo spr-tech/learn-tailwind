@@ -68,7 +68,7 @@ const TodoList = () => {
               onClick={() => dispatch(removeTodo(todo.id))}
               className="bg-red-600 p-2 rounded-lg"
             >
-              Remove item
+              Remove item from list 
             </button>
           </div>
         ))}
